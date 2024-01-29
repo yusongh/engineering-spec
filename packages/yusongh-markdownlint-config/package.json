@@ -1,0 +1,26 @@
+{
+  "name": "yusongh-markdownlint-config",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "yusongh <549962989@qq.com>",
+  "homepage": "https://github.com/yusongh/engineering-spec#readme",
+  "license": "ISC",
+  "main": "lib/yusongh-markdownlint-config.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yusongh/engineering-spec.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/yusongh-markdownlint-config.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/yusongh/engineering-spec/issues"
+  }
+}
