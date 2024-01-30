@@ -1,0 +1,18 @@
+{
+  "name": "yusongh-commitlint-config",
+  "version": "0.0.0",
+  "description": "commitlint config",
+  "author": "yusongh <549962989@qq.com>",
+  "homepage": "https://github.com/yusongh/engineering-spec#readme",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yusongh/engineering-spec.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yusongh/engineering-spec/issues"
+  },
+  "peerDependencies": {
+    "conventional-changelog-conventionalcommits": "^7.0.2"
+  }
+}
