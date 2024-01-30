@@ -1,6 +1,6 @@
 # yusongh-markdownlint-config
 
-> 印客学院 文档 规范
+> 文档 规范
 
 支持配套的 [markdownlint 可共享配置](https://www.npmjs.com/package/markdownlint#optionsconfig)。
 
@@ -9,7 +9,7 @@
 需要先行安装 [markdownlint](https://www.npmjs.com/package/markdownlint)：
 
 ```bash
-npm install yusongh-markdownlint-config markdownlint --save-dev
+npm install yusongh-markdownlint-config markdownlint markdownlint-cli --save-dev
 ```
 
 ## 使用
