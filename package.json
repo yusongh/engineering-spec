@@ -9,7 +9,8 @@
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "clean": "rm -rf node_modules && lerna clean",
-    "lint:markdown": "npx markdownlint README.md",
+    "lint:markdown": "pnpm exec markdownlint README.md",
+    "lint:style": "pnpm exec stylelint './src/css/**/*.css'",
     "prepare": "husky install"
   },
   "keywords": [],
@@ -23,6 +24,7 @@
     "lerna": "^8.0.2",
     "markdownlint": "^0.33.0",
     "markdownlint-cli": "^0.39.0",
+    "stylelint": "^14.16.1",
     "typescript": "^5.3.3"
   }
 }
